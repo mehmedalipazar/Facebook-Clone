@@ -1,0 +1,324 @@
+/***** RESET *****/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code,del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var, b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	/* font-size: 100%;
+	vertical-align: baseline; */
+	
+}
+html, body {height:100%;}
+body {line-height: 1;}
+ol, ul {list-style: none;}
+blockquote, q {quotes: none;}
+blockquote:before, blockquote:after, q:before, q:after {content: '';content: none;}
+table {border-collapse: collapse;border-spacing: 0;} /* tables still need 'cellspacing="0"' in the markup */
+textarea {overflow:auto;}
+/***** RESET *****/
+
+
+
+
+
+.ust{
+	width: 100%; 
+	height: 100vh;
+	background-color: #f0f2f5;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-width: 400px;
++
+}
+
+.alt{
+	width: 100%;
+	height: 28%;
+	background-color: #fff;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	flex-wrap: wrap;
+	min-width: 400px;
+}
+.althepsi{
+	
+	width:60%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	flex-wrap: wrap;
+	
+}
+
+/*  ÜST DIV BAŞLANGIÇ  */
+
+.ortasol{
+	background-color: #f0f2f5;
+	width: 30%; height: 40%;
+	font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif; 
+	padding-right: 100px;
+	font-size: 28px;
+	font-weight: normal;
+	line-height: 32px;
+	display: flex;
+	flex-direction: column;
+	
+}
+
+.divlogo{
+	width: 300px;
+	height:100px;
+}
+.paragraf{
+	width: 100%;
+}
+p{
+	font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+	font-size: 24px;
+	font-weight: normal;
+	padding-left: 35px;
+
+	
+}
+
+.ortasag{
+	
+	width: 27%; height:50%;
+	display: flex;
+	justify-content:center;
+	align-items: center;
+}
+
+.ortasaghepsi{
+	
+	padding-top: 10px;
+	width: 360px; height: 420px;
+	display: flex;
+	flex-direction: column;
+	
+}
+
+.ortasagpanel{background-color: #ffffff;
+	border-radius: 8px;
+	width: 350px;
+	height: 350px;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+}
+
+
+.text1{
+	width: 320px;
+	height: 45px;
+	padding: 0 0 0 13px;
+	border: 1px solid #dddfe2;
+	border-radius: 6px;
+}
+
+
+.text2{
+	width: 320px;
+	height: 45px;
+	padding: 0 0 0 13px;
+	border: 1px solid #dddfe2;
+	border-radius: 6px;
+}
+
+.text1:focus{
+	outline: none;
+	border-color: #166fe5;
+	caret-color: #1b74e4;
+}
+
+.text2:focus{
+	outline: none;
+	border-color: #166fe5;
+	caret-color: #1b74e4;
+}
+
+.divemail{background-color: rgb(255, 255, 255);	width: 330px;	height: 60px; text-align: center; padding-bottom: px;
+padding-top: 20px;}
+
+.divsifre{	background-color: rgb(255, 255, 255);	width: 330px;	height: 30px; text-align: center; padding-bottom: 20px;}
+
+.divgiris{background-color: #ffffff;	width: 350px;	height: 50px; text-align: center;padding:20px 0px}
+
+.girisyap{
+	width: 320px;
+	background-color: #1877f2;
+	font-size: 20px;
+	line-height: 48px;
+	border-radius: 6px;
+	font-weight: bold;
+	border: none;
+	color: #fff;
+	cursor: pointer;
+	transition: 200ms cubic-bezier(.08,.52,.52,1) background-color, 
+	200ms cubic-bezier(.08,.52,.52,1) box-shadow, 200ms cubic-bezier(.08,.52,.52,1) transform;
+}
+
+.girisyap:hover{background-color: #166fe5;}
+
+.divunuttum{
+	background-color:rgb(255, 255, 255);
+	width: 350px;
+	height: 15px;
+	text-align: center;
+	padding-bottom: 15px;
+}
+
+.divunuttum a{
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 13px;
+	color: #1877f2;
+	font-weight: 500;
+	text-decoration:none;
+}
+
+.divunuttum a:hover{text-decoration: underline;}
+
+.divcizgi{background-color: #dadde1;	width: 330px; height: 2px;
+}
+
+.divyenihesap{width: 330px;	height: 50px;	background-color: rgb(255, 255, 255); text-align: center ; padding-top: 13px;
+	
+}
+
+.yenihesap{
+	width: 180px;
+	height: 48px;
+	background-color: #42b72a;
+	font-size: 17px;
+	line-height: 48px;
+	border-radius: 6px;
+	font-weight: bold;
+	border: none;
+	color: #fff;
+	cursor: pointer;
+	transition: 200ms cubic-bezier(.08,.52,.52,1) background-color,
+	200ms cubic-bezier(.08,.52,.52,1) box-shadow, 200ms cubic-bezier(.08,.52,.52,1) transform;
+  }
+
+.yenihesap:hover{background-color: #36a420;}
+
+.ortasagpanelalti{
+	width: 350px;
+	height: 20px;
+	text-align: center;
+	font-size: 13px;
+	font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+	padding-top: 15px;
+}
+
+.ortasagpanelalti span a{color: black;	text-decoration: none;	font-weight: bold;}
+
+.ortasagpanelalti span a:hover{color: black;	text-decoration: underline;	font-weight: bold;}
+
+/*  ÜST DIV SONU  */
+
+
+/*  ALT DIV BAŞLANGIÇ  */
+.divlist1{
+	width: 100%;
+	
+}
+
+.list1{
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	color: #737373;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	
+}
+
+.list1 li a{padding-right: 10px;color: #737373;	text-decoration: none;}
+
+.list1 a:hover{ text-decoration: underline;}
+
+.plusbutton{color: #c7cbce; width: 30px; height: 20px; cursor: pointer; border: 1px solid; border-radius:2px;}
+
+.plusbutton:hover{background-color:#dfe2e7;}
+
+#plusbutton {width:12px; height: 12px; margin: 0 0 0 -1px;}
+
+.cizgi2{ background-color:#dddfe2; width: 100%; height: 2px; }
+
+.divlist2{
+	width: 100%;
+}
+
+.list2{
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	height: 60px;
+	color: #737373;
+	display: flex;	
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+.list2 li a{padding-right: 20px; text-decoration:none; color: #737373}
+
+#adc{width: 12px; height: 12px;opacity:0.7}
+
+.list2 a:hover{ text-decoration: underline;}
+
+.divcopyright{ width:100%; font-size: 11px ;  color: #737373; padding-top: 10px;
+display: flex; flex-wrap: wrap;}
+/*  ALT DIV SONU  */
+
+
+
+/* MEDIA QUERRIES BAŞLANGIÇ */
+
+@media only screen and (max-width: 900px){
+	.ust{
+		flex-direction: column;
+	}
+	.ortasag{
+	
+		width: 360px; height:420px;
+		display: flex;
+		justify-content:center;
+		align-items: center;
+	}
+	.alt{
+		flex-direction: column;
+		
+	}
+	.ortasol{
+		background-color: #f0f2f5;
+		width: 27%; height: 28%;
+		padding: 0;
+		font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif; 
+		font-size: 28px;
+		font-weight: normal;
+		line-height: 32px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		
+	}
+	
+	
+	.paragraf{
+		width: 400px;
+		height: 100px;
+		text-align: center;
+	}
+	.paragraf p{
+		padding: 0px;
+	}
+	
+}
+
+/* MEDIA QUERRIES SONU */
